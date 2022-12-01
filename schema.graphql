@@ -1,0 +1,28 @@
+type Query {
+  """Query | Custom"""
+  delayed(delay: Int!): String!
+
+  """Query | Fast | 150-250ms"""
+  fast: String!
+
+  """Query | Instant | 0-100ms"""
+  instant: String!
+
+  """Query | Slow | 5-6s"""
+  slow: String!
+}
+
+type Subscription {
+  """Subscription | Fast | 0-100ms"""
+  fast: String!
+
+  """Query | Iterate | 0-100ms x (end - start)"""
+  iterate(delay: Int!, start: Int, end: Int!): String!
+
+  """Query | repeat"""
+  repeat(delay: Int!): String!
+
+  """Query | Slow | 5-6s"""
+  slow: String!
+}
+
