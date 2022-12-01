@@ -5,6 +5,7 @@
 //  Created by d-exclaimation on 15:47.
 //
 
+import Foundation
 import Pioneer
 import Graphiti
 import GraphQL
@@ -60,7 +61,12 @@ let server = Pioneer(
 )
 
 
-let app = try Application(.specified(port: 4200, host: "127.0.0.1"))
+let app = try Application(
+    .specified(
+        port: Int(ProcessInfo.processInfo.environment["PORT"] ?? "4200")!, 
+        host: ProcessInfo.processInfo.environment["HOST"] ?? "127.0.0.1"
+    )
+)
 
 app.middleware.use(
     middleware { req, next in
