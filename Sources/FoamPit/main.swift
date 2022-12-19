@@ -68,6 +68,12 @@ let app = try Application(
     )
 )
 
+app.middleware.use(CORSMiddleware(configuration: 
+    .apolloSandbox(
+        origins: ["*"], 
+        credentials: true 
+    )
+), at: .beginning)
 app.middleware.use(
     middleware { req, next in
         try await req.prism()
