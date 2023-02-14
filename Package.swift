@@ -6,15 +6,15 @@ import PackageDescription
 let package = Package(
     name: "FoatPit",
     platforms: [
-        .macOS(.v12)
+        .macOS(.v10_15)
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/vapor/vapor", from: "4.67.1"),
-        .package(url: "https://github.com/d-exclaimation/pioneer", from: "1.0.0"),
-        .package(url: "https://github.com/GraphQLSwift/Graphiti", from: "1.2.0"),
-        .package(url: "https://github.com/GraphQLSwift/GraphQL", from: "2.4.3"),
+        .package(url: "https://github.com/vapor/vapor", from: "4.69.0"),
+        .package(url: "https://github.com/d-exclaimation/pioneer", from: "1.2.0"),
+        .package(url: "https://github.com/GraphQLSwift/Graphiti", from: "1.7.0"),
+        .package(url: "https://github.com/GraphQLSwift/GraphQL", from: "2.4.5"),
         .package(url: "https://github.com/jordanbaird/Prism", from: "0.0.9")
     ],
     targets: [
