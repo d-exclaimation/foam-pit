@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/async-kit.git",
       "state" : {
-        "revision" : "3be4b6418d1e8b835b0b1a1bee06b249faa4da5f",
-        "version" : "1.14.0"
+        "revision" : "929808e51fea04f01de0e911ce826ef70c4db4ea",
+        "version" : "1.15.0"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GraphQLSwift/Graphiti.git",
       "state" : {
-        "revision" : "5b15e16bfaa75b56eded4a0bbcb58345b2e66c43",
-        "version" : "1.2.1"
+        "revision" : "b2ebaceb9ef8f8109e8636b4416fb7b482d2d0cb",
+        "version" : "1.2.3"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GraphQLSwift/GraphQL.git",
       "state" : {
-        "revision" : "ad4a71514c604de040a53d6ef37b2c18435e825e",
-        "version" : "2.4.3"
+        "revision" : "a3011344bef0374fb72f4ad57a85460564eb8f0e",
+        "version" : "2.4.5"
       }
     },
     {
@@ -59,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/d-exclaimation/pioneer",
       "state" : {
-        "revision" : "800edf7429c9143870abcba7f9995c478aee5d9e",
-        "version" : "1.0.1"
+        "revision" : "ce9245ebeeccec2bce7d535ca18d316d8113d9da",
+        "version" : "1.2.0"
       }
     },
     {
@@ -203,8 +203,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/vapor.git",
       "state" : {
-        "revision" : "2d54398d50951f177eb899c05154636e381f3bc6",
-        "version" : "4.67.4"
+        "revision" : "a7d88181e68f03d1aeb7ecb80269ab3da9e5d155",
+        "version" : "4.69.1"
       }
     },
     {

@@ -5,11 +5,11 @@
 //  Created by d-exclaimation on 18:03.
 //
 
-import class Vapor.Request
-import class Vapor.Response
 import protocol Vapor.AsyncMiddleware
 import protocol Vapor.AsyncResponder
 import protocol Vapor.Middleware
+import class Vapor.Request
+import class Vapor.Response
 
 /// AsyncMiddleware made by a singular function
 public struct AsyncFunctionMiddleware: AsyncMiddleware {
@@ -23,7 +23,7 @@ public struct AsyncFunctionMiddleware: AsyncMiddleware {
     }
 
     public func respond(to request: Request, chainingTo next: AsyncResponder) async throws -> Response {
-           try await self.responder(request, next)
+        try await self.responder(request, next)
     }
 }
 
